@@ -12,10 +12,14 @@ This repository is the content source for training content in the Operate First 
 
 * Developed and maintained in markdown files, Jupyter Notebooks, and Jupyter Books.
 
+* Organized into courses, but set up as modular topics that can be reused across courses.
+
 Training content ***is not***:
 
 * Documentation. Guides, references, and other documentation resources are maintained as part of the Operate First Knowledge Hub:<br/>
 FIXME... need a subdomain (docs.operate-first.cloud) or path (operate-first.cloud/docs/) where we can place guides and references for ongoing reference after training; training will link out to those references as needed
+
+* Comprehensive. Training content is created and added to Operate First as the community members are able to do so. The community can prioritize certain kinds of training depending on its current community goals.
 
 ## How does this content become training?
 

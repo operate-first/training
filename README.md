@@ -1,33 +1,41 @@
-# Operate First template for repositories
+# Operate First Training Hub
 
-Derive new repositories from this template
+This repository is the content source for training content in the Operate First community.
 
-List of featurese:
+### What do we mean "training content"?
 
+**Training content** is:
+
+* Content used for generating self-paced training on topics important to the Operate First community and to the site reliability engineer (SRE) career path.
+
+* Designed to apply [instructional design best practices](https://blog.commlabindia.com/elearning-design/instructional-design-best-practices-guide) and [Adult Learning Theory (andragogy)](https://en.wikipedia.org/wiki/Andragogy).
+
+* Developed and maintained in markdown files, Jupyter Notebooks, and Jupyter Books.
+
+Training content ***is not***:
+
+* Documentation. Guides, references, and other documentation resources are maintained as part of the Operate First Knowledge Hub:<br/>
+FIXME... need a subdomain (docs.operate-first.cloud) or path (operate-first.cloud/docs/) where we can place guides and references for ongoing reference after training; training will link out to those references as needed
+
+### How does this content become training?
+
+On commit, CI/CD identifies what's been updated in the repository and identifies the training courses and workbooks that need to be built or rebuilt into a target format (typically HTML). If the content build is successful, CI/CD will go on to publish that content at operate-first.cloud.
+
+### Where will learners find the content?
+
+Operate First has a training landing page available here:<br/>
+FIXME... need a subdomain (training.operate-first.cloud) or path (operate-first.cloud/training/) where we can place a training landing page.
+
+The organization of training courses and workbooks at that location reflects how the training content is organized here in the repository.
+
+### How to contribute training content
+
+FIXME... need to explain
+
+
+<hr/>
 ## License
 
-This template ensures new repos are created compliant with [ADR 0001](https://www.operate-first.cloud/blueprints/blueprint/docs/adr/0001-use-gpl3-as-license.md) and use GNU GPL v3 license.
+This repository was created compliant with [ADR 0001](https://www.operate-first.cloud/blueprints/blueprint/docs/adr/0001-use-gpl3-as-license.md). All content within this repository is provided under the [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-## AI-CoE CI Github application
-
-AI-CoE CI provides easy and quick integration for build pipelines and checks for pull requests.
-
-An empty [`.aicoe-ci.yaml`](.aicoe-ci.yaml) is created here, disabling all checks via this CI provider by default. Documentation can be found [here](https://github.com/AICoE/aicoe-ci/).
-
-## Prow CI
-
-Prow is a CI provider developed for Kubernetes needs. Provides chat-ops management of pull requests, issues and declarative management for labels, branches and many more.
-
-We host our own deployment of Prow in Operate First available at [https://prow.operate-first.cloud/](https://prow.operate-first.cloud/).
-
-Supported commands are listed [here](https://prow.operate-first.cloud/command-help). We have also enabled Prow to consume on-repository configuration files. You can specify your config in [`.prow.yaml`](.prow.yaml). Additional centralized configuration can be found in the [thoth-application repository](https://github.com/thoth-station/thoth-application/tree/master/prow/overlays/cnv-prod).
-
-## Pre-commit
-
-By extension to Prow, we define a default pre-commit config for new repositories. Default hook configuration can be found in [`.pre-commit-config.yaml`](.pre-commit-config.yaml). Pre-commit is executed via Prow, see [`.prow.yaml`](.prow.yaml) for details.
-
-We enable yamllint hook by default, since most of our repositories use yaml files extensively. Default configuration for this hook is located at [`yamllint-config.yaml`](yamllint-config.yaml).
-
-To install and enable pre-commit locally please follow the instructions [here](https://pre-commit.com/#quick-start).
-
-It is advised for all contributors to enable pre-commit git hook via `pre-commit install` after cloning any repo within Operate First.
+<hr/>

@@ -1,3 +1,6 @@
+# Operate first Prow deployment: https://prow.operate-first.cloud/
+# Reference: https://prow.operate-first.cloud/command-help
+# Additional centralized configuration: https://github.com/thoth-station/thoth-application/tree/master/prow/overlays/cnv-prod
 presubmits:
   - name: pre-commit
     decorate: true

@@ -1,6 +1,6 @@
 # Operate First Training
 
-This repository is the content source for training content in the Operate First community hosted at FIXME.
+This repository is the content source for training in the Operate First community. We develop training content here and publish training courses at FIXME.
 
 ## What do we mean "training content"?
 

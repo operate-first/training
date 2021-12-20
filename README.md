@@ -16,25 +16,37 @@ This repository is the content source for training in the Operate First communit
 
 Training content ***is not***:
 
-* Documentation. Guides, references, and other documentation resources are maintained as part of the Operate First Knowledge Hub:<br/>
-FIXME... need a subdomain (docs.operate-first.cloud) or path (operate-first.cloud/docs/) where we can place guides and references for ongoing reference after training; training will link out to those references as needed
+* Documentation. Guides, references, and other documentation resources are maintained as part of the Operate First Knowledge Hub (FIXME-TBD, maybe docs.operate-first.cloud).
 
 * Comprehensive. Training content is created and added to Operate First as the community members are able to do so. The community can prioritize certain kinds of training depending on its current community goals.
 
 ## How does this content become training?
 
-On commit, CI/CD identifies what's been updated in the repository and identifies the training courses and workbooks that need to be built or rebuilt into a target format (typically HTML). If the content build is successful, CI/CD will go on to publish that content at operate-first.cloud.
+On commit, CI/CD identifies what's been updated in the repository and identifies the training courses and workbooks that need to be built or rebuilt into a target format (typically HTML). If a content build is successful, CI/CD will go on to publish that content to the configured target location operate-first.cloud.
 
 ## Where will learners find the content?
 
-Operate First has a training landing page available here:<br/>
-FIXME... need a subdomain (training.operate-first.cloud) or path (operate-first.cloud/training/) where we can place a training landing page.
+Operate First has a training landing page available at (FIXME-TBD training.operate-first.com?). Learners should not need to access this developer-side repository to access or complete their training.
 
-The organization of training courses and workbooks at that location reflects how the training content is organized here in the repository.
+## Repository structure and CI/CD
+
+Repository contents are organized to reflect how the courses are organized at (FIXME-TBD training.operate-first.com?).
+
+General directory structure:
+
+**programs** - A program here represents a training program hosted within the Operate First space. A program brings courses together in an ordered learning path. File format under this directory TBD (probably Jupyter Book).
+
+**courses** - A course here represents a small unit of training covering 1-2 learning objectives that are important to the community. A learning objective is what someone should be able to do after training that they may not have been able to do before training (e.g. "On completing this course, you should be able to..."). This directory has subdirectories organizing courses by skill areas as follows:
+
+* **skills-ourcommunity** - Our community onboarding and tools
+* **skills-opensource** - Open source
+* **skills-software** - Software development
+* **skills-cloud** - Cloud technology and operations
+* **skills-team** - Working on teams (e.g. agile, communication, handling feedback)
 
 ## How to contribute training content
 
-FIXME... need to explain
+FIXME-TBD
 
 
 <hr/>

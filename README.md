@@ -38,7 +38,7 @@ General directory structure:
 
 **courses** - A course here represents a small unit of training covering 1-2 learning objectives that are important to the community. A learning objective is what someone should be able to do after training that they may not have been able to do before training (e.g. "On completing this course, you should be able to..."). This directory has subdirectories organizing courses by skill areas as follows:
 
-* **skills-ourcommunity** - Our community onboarding and tools
+* **skills-operatefirst** - Operate First overviews, onboarding, and tools
 * **skills-opensource** - Open source
 * **skills-software** - Software development
 * **skills-cloud** - Cloud technology and operations

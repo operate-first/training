@@ -44,9 +44,11 @@ General directory structure:
 * **skills-opensource** - Open source
 * **skills-software** - Software development
 * **skills-cloud** - Cloud technology and operations
-* **skills-team** - Working on teams (e.g. agile, communication, handling feedback)
+* **skills-professional** - General professional job skills for team environments (e.g. agile, communication, handling feedback)
 
 **courses** - A directory for Jupyter Books used to assemble two or more training modules into a single, larger unit. (FIXME - experimental)
+
+![training repository structure diagram](repo_layout.png "training repository structure diagram")
 
 ## How to contribute training content
 

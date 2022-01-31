@@ -1,33 +1,64 @@
-# Operate First template for repositories
+# Operate First Training
 
-Derive new repositories from this template
+This repository is the content source for training in the Operate First community. We develop training content here and publish training modules to operate-first.cloud (FIXME-URL).
 
-List of featurese:
+## What do we mean "training content"?
 
-## License
+**Training content** is:
 
-This template ensures new repos are created compliant with [ADR 0001](https://www.operate-first.cloud/blueprints/blueprint/docs/adr/0001-use-gpl3-as-license.md) and use GNU GPL v3 license.
+* Content used for generating self-paced training on topics important to the Operate First community and to the site reliability engineer (SRE) career path.
 
-## AI-CoE CI Github application
+* Designed to apply [instructional design best practices](https://blog.commlabindia.com/elearning-design/instructional-design-best-practices-guide) and [Adult Learning Theory (andragogy)](https://en.wikipedia.org/wiki/Andragogy).
 
-AI-CoE CI provides easy and quick integration for build pipelines and checks for pull requests.
+* Developed and maintained in **modules**, which each module representing a learning objective ("After this module, you should be able to...").
 
-An empty [`.aicoe-ci.yaml`](.aicoe-ci.yaml) is created here, disabling all checks via this CI provider by default. Documentation can be found [here](https://github.com/AICoE/aicoe-ci/).
+* Designed to assemble into larger chunks to create training courses, workbooks, or programs.
 
-## Prow CI
+Training content ***is not***:
 
-Prow is a CI provider developed for Kubernetes needs. Provides chat-ops management of pull requests, issues and declarative management for labels, branches and many more.
+* Documentation. Guides, references, and other documentation resources are maintained as part of the Operate First Knowledge Hub (FIXME-TBD, maybe docs.operate-first.cloud).
 
-We host our own deployment of Prow in Operate First available at [https://prow.operate-first.cloud/](https://prow.operate-first.cloud/).
+* Comprehensive. Training content is created and added to Operate First as the community members are able to do so. The community can prioritize certain kinds of training depending on its current community goals.
 
-Supported commands are listed [here](https://prow.operate-first.cloud/command-help). We have also enabled Prow to consume on-repository configuration files. You can specify your config in [`.prow.yaml`](.prow.yaml). Additional centralized configuration can be found in the [thoth-application repository](https://github.com/thoth-station/thoth-application/tree/master/prow/overlays/cnv-prod).
+## How the training is encoded and built
 
-## Pre-commit
+Each modules consists of one or more markdown files or Jupyter Notebooks connected within a single Jupyter Book.
 
-By extension to Prow, we define a default pre-commit config for new repositories. Default hook configuration can be found in [`.pre-commit-config.yaml`](.pre-commit-config.yaml). Pre-commit is executed via Prow, see [`.prow.yaml`](.prow.yaml) for details.
+On commit, CI/CD identifies what's been updated in the repository and identifies the training modules that need to be built or rebuilt into a target format (typically HTML).
 
-We enable yamllint hook by default, since most of our repositories use yaml files extensively. Default configuration for this hook is located at [`yamllint-config.yaml`](yamllint-config.yaml).
+If a content build is successful, CI/CD will go on to publish that content to the configured target location operate-first.cloud.
 
-To install and enable pre-commit locally please follow the instructions [here](https://pre-commit.com/#quick-start).
+## Where will learners find the content?
 
-It is advised for all contributors to enable pre-commit git hook via `pre-commit install` after cloning any repo within Operate First.
+Operate First has a training landing page available at (FIXME-TBD training.operate-first.com?). Learners should not need to access this developer-side repository to access or complete their training.
+
+## Repository organization
+
+Repository contents are organized to reflect how content is organized at (FIXME-TBD training.operate-first.com?).
+
+General directory structure:
+
+**modules** - The directory containing all individual training units (modules), organized into subdirectories based on these skill areas:
+
+* **skills-operatefirst** - Operate First overviews, onboarding, and tools
+* **skills-opensource** - Open source
+* **skills-software** - Software development
+* **skills-cloud** - Cloud technology and operations
+* **skills-professional** - General professional job skills for team environments (e.g. agile, communication, handling feedback)
+
+**courses** - A directory for Jupyter Books used to assemble two or more training modules into a single, larger unit. (FIXME - experimental)
+
+![training repository structure diagram](repo_layout.png "training repository structure diagram")
+
+## How to contribute training content
+
+FIXME-TBD
+
+
+<hr/>
+
+### License
+
+This repository was created compliant with [ADR 0001](https://www.operate-first.cloud/blueprints/blueprint/docs/adr/0001-use-gpl3-as-license.md). All content within this repository is provided under the [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+<hr/>

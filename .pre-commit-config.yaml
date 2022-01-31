@@ -1,3 +1,4 @@
+# A pre-config commit for new repositories; called from .prow.yaml
 ---
 repos:
   - repo: git://github.com/Lucas-C/pre-commit-hooks

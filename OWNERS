@@ -1,11 +1,13 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 approvers:
+  - stefwrite
   - HumairAK
   - durandom
   - tumido
 
 reviewers:
+  - stefwrite
   - 4n4nd
   - HumairAK
   - durandom

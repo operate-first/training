@@ -4,5 +4,5 @@
 format: jb-book
 root: intro
 chapters:
-- file: page-what_it_means_to_be_agile
+- file: page-template-notebook
 

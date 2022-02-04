@@ -1,4 +1,4 @@
-# Operate First Training
+# Operate First *training* repo
 
 This repository is the content source for training in the Operate First community. We develop training content here and publish training modules to operate-first.cloud (FIXME - need URL).
 
@@ -8,7 +8,7 @@ Training content is:
 
 * Self-paced, interactive experiences designed to train people on how to perform some action or improve performance on that action.
 
-* Created in small, modular units aligned with only 1 or 2 objective ("Completing this module, you should be able to [OBJECTIVE]...")
+* Created in small, modular units aligned with only 1 or 2 objective ("After completing this training, you should be able to [OBJECTIVE]...")
 
 * Designed to apply [instructional design best practices](https://blog.commlabindia.com/elearning-design/instructional-design-best-practices-guide) and [Adult Learning Theory (andragogy)](https://en.wikipedia.org/wiki/Andragogy).
 
@@ -20,13 +20,16 @@ Training content ***is not***:
 
 ## How do we build training?
 
-Each training module consists of one or more markdown files or Jupyter Notebooks connected within a single Jupyter Book.
+Training is divided up into units called **training modules**
 
-On commit, CI/CD identifies what's been added and updated in the repository and identifies whether it needs to build the content.
+Each module:
+* Is self-contained within a directory.
+* Is developed using Jupyter Book.
+* Covers 1-2 learning objectives (*"After completing this training, you should be able to..."*).
 
-[FIXME - build and publish process TBD]
+On commit of this training repo... [FIXME - build and publish process TBD]
 
-## Where will learners find the content?
+## Where can people find and take the training content?
 
 Operate First has a training landing page available at (FIXME-TBD training.operate-first.com?). Learners should not need to access this developer-side repository to access or complete their training.
 
@@ -36,25 +39,29 @@ Repository contents are organized to reflect how content is organized at (FIXME-
 
 General directory structure:
 
-**modules** - The directory containing all individual training units (modules), organized into subdirectories based on these skill areas:
+*index.md* - A markdown file used to index all available training modules.
 
-* *index.md* - A markdown file used to index all available training modules
+**template-module** - A directory with a pre-configured Jupyter Book that you can copy to create a new training module.
+
+**modules** - The directory containing all individual training modules, organized into subdirectories based on these skill areas:
+
 * **skills-operatefirst** - Operate First overviews, onboarding, and tools
 * **skills-opensource** - Open source
 * **skills-software** - Software development
 * **skills-cloud** - Cloud technology and operations
 * **skills-professional** - General professional/on-the-job skills for team environments (e.g. agile, communication, handling feedback)
 
-**template-module** - A pre-configured Jupyter Book you can copy to create a new training module
-
 ![training repository structure diagram](repo_layout.png "training repository structure diagram")
 
 ## How to contribute training content
 
+If you aren't yet a member of the Operate First community in GitHub, [start here](https://github.com/operate-first/common/blob/main/docs/add_gh_member_and_access.md#become-a-github-member).
+
+Members can then fork and contribute changes to the repository:
 1. Fork this training repository.
 2. Check out your fork.
 3. If you're creating a new training module, copy *training-module* into one of the modules/skills-* subdirectories.
-4. Use Jupyter Notebook locally to open the book contents and create and modify files.
+4. Use Jupyter Notebook locally to open the book contents and create and modify files. Follow any guided information in the template.
 5. Continue working in your fork until you're ready to publish changes, then initiate a pull request in accordance with Operate First's current process.
 
 <hr/>

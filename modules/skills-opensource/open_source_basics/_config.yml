@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Agile Basics and Frameworks
+title: Getting Involved with Open Source
 author: Operate First
 logo: logo.png
 
@@ -21,7 +21,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/operate-first/training/modules/skills-professional/agile_basics_and_frameworks
+  url: https://github.com/operate-first/training/modules/skills-opensource/open_source_basics
   # Online location of your book
   #path_to_book: docs
   # Optional path to your book, relative to the repository root

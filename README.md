@@ -60,8 +60,8 @@ If you aren't yet a member of the Operate First community in GitHub, [start here
 Members can then fork and contribute changes to the repository:
 1. Fork this training repository.
 2. Check out your fork.
-3. If you're creating a new training module, copy *training-module* into one of the modules/skills-* subdirectories.
-4. Use Jupyter Notebook locally to open the book contents and create and modify files. Follow any guided information in the template.
+3. If you're creating a new training module, copy *training-module* into one of the modules/skills-* subdirectories. In your new copy, add your title and other information in _config.yaml.
+4. Use Jupyter Notebook locally to open the book contents and create and modify files. Follow any guided information in the template. If you're new to Jupyter Book, visit [jupyterbook.org](https://jupyterbook.org/intro.html) for a tutorial and docs so you know how to add pages and test your build locally.
 5. Continue working in your fork until you're ready to publish changes, then initiate a pull request in accordance with Operate First's current process.
 
 <hr/>

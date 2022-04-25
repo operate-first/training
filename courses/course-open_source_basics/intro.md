@@ -1,7 +1,8 @@
-# Getting Involved with Open Source
+# Welcome to Open source Enablement
 
-After completing this training, you should be able to:
-* Define open source as it applies to software development and open source communities.
-* Apply open source principles to your work even beyond software development.
-* List the benefits of contributing to open source projects.
-* Contribute to open source projects.
+This course explains the concepts of open source software software and open source communities, including some misconception and values of open source, and how Red Hat contributes to the open source communities. 
+
+Check out the content pages below.
+
+```{tableofcontents}
+```

@@ -4,5 +4,18 @@
 format: jb-book
 root: intro
 chapters:
-- file: page-template-notebook
-
+    - file: objectives
+    - file: freesoftware
+    - file: fourfreedoms
+    - file: closedsource
+    - file: opensourcesoftware
+    - file: misconceptions
+    - file: values
+    - file: opensourcecommunity
+    - file: develmodel
+    - file: redhatdevelmodel
+    - file: linuxandopensource
+    - file: streams
+    - file: whatredhatdoes
+    - file: howredhatdoes
+    - file: contributingtocommunities

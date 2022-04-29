@@ -4,5 +4,17 @@
 format: jb-book
 root: intro
 chapters:
-- file: page-template-notebook
-
+- file: objectives
+- file: what_is_op1st
+- file: op1st_background
+- file: upstream_first
+- file: community_vision
+- file: key_tenets
+- file: three_basic_terms
+- file: op1st_cloud_env
+- file: mass_open_cloud
+- file: open_infrastructure_labs
+- file: op1st_services
+- file: op1st_artifacts
+- file: use_cases
+- file: op1st_support

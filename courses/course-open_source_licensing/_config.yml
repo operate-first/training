@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Getting Involved with Open Source
-author: PnT Experience Training Team
+title: Open Source Licensing 
+author: PnT Experience Team
 logo: logo.png
 
 # Force re-execution of notebooks on each build.

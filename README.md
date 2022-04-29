@@ -4,54 +4,64 @@ This repository is the content source for training in the Operate First communit
 
 ## What do we mean "training content"?
 
-Training content is a one-time interactive experience designed to train people on how to perform some action or improve performance on that action.
+Training content is any **one-time interactive experience** designed to train people on how to perform some action or improve performance on that action.
+
+Training is developed around **learning objectives**. A learning objective is an observable, measureable behavior that you want someone to be able to perform. We typically write learning objectives with this leading statement: "After completing this training, you should be able to..."
 
 Training should be designed to:
 
-* Be small and modular, presenting only 1 or 2 learning objectives (e.g. "After completing this training, you should be able to [OBJECTIVE]...").
+* Be short and modular, presenting only 1 or 2 learning objectives.
 
 * Apply [instructional design best practices](https://blog.commlabindia.com/elearning-design/instructional-design-best-practices-guide) and [Adult Learning Theory (andragogy)](https://en.wikipedia.org/wiki/Andragogy).
 
-**Training content *is not* a substitute for documentation!** Docs should be comprehensive resources designed for repeated reference and are easier to keep up-to-date over time. A one-time training experience may be used to introduce or enable someone to a topic while directing learners to docs for ongoing reference.
+* Refer to **separate** documentation resources for ongoing reference.
 
 ## How do we build training?
 
-Training is divided up into **courses**.
+For Operate First, we divide training up into **courses**.
 
 Each course:
-* Is self-contained within a directory.
-* Is developed using Jupyter Book.
-* Covers 1-2 learning objectives (e.g. *"After completing this training, you should be able to..."*).
+* Is self-contained within a directory
+* Is developed as a single book in Jupyter Book
+* Covers 1-2 learning objectives
 
-After setting up a course and having an acccepted pull request (PR) upstream, automation should build your course and publish it to operate-first.cloud. You can continue to maintain the course in the same way, ending with a PR each time you're ready to push a change upstream.
+Automation associated with the repository builds each book into a training course and publishes it to a directory under operate-first.cloud/training/. That automation triggers when we accept a PR in the upstream repository (operate-first/training).
 
 ## Where can people find and take the training content?
 
-Browse to operate-first.cloud and select "Docs and training" to access an index of all documentation and training together. (Learners should not need to access this developer-side repository unless they choose to contribute to training.)
+You have two options to access training content after it's been published:
+* Directly open https://operate-first.cloud/training
+* Go to the Operate First home page (operate-first.cloud) and select "Docs and training"
+
+Learners (end users) should not need to access this repository directly unless they choose to contribute back to the training content.
 
 ## Repository organization
 
-Repository contents are organized to reflect how content is organized at (FIXME-TBD training.operate-first.com?).
-
-General directory structure:
-
-*index.md* - A markdown file used to index all available training modules.
-
-**template-course** - A directory with a pre-configured Jupyter Book that you can copy to create a new training course.
+These are the key files to pay attention to when contributing to training:
 
 **courses** - The directory containing all individual training modules with each directory starting with the string "courses-".
+
+*courses/index.html* - A markdown file used to index all available training modules. You'll add a line to this to link to any new courses once you're ready for that course to be published.
+
+**template-course** - A directory with a pre-configured Jupyter Book that you can copy to create a new training course.
 
 ## How to contribute training content
 
 If you aren't yet a member of the Operate First community in GitHub, [start here](https://github.com/operate-first/common/blob/main/docs/add_gh_member_and_access.md#become-a-github-member).
 
 Members can then fork and contribute changes to the repository:
-1. Fork this training repository.
-2. Check out your fork.
-3. If you're creating a new training module, copy the *template-course* directory to create a new directory under *courses/* (following the same directory naming convention).
-4. In your new copy, add your title and other information in _config.yaml.
-5. Use Jupyter Notebook locally to open the Jupyter Book contents and create and modify files. Follow any guided information in the template. If you're new to Jupyter Book, visit [jupyterbook.org](https://jupyterbook.org/intro.html) for a tutorial and docs so you know how to add pages and test your build locally.
-6. Continue working in your fork until you're ready to publish changes, then initiate a pull request in accordance with Operate First's current process.
+1. Fork the training repository in GitHub: **[operate-first/training|https://github.com/operate-first/training]**
+2. In your fork, create a working branch other than main.
+3. If you want to work locally on your system, clone your fork and check out your working branch.
+4. If you're creating a new training module, copy the *template-course* directory to create a new directory under *courses/* following the same directory naming convention as other courses (*course-title_of_course*).
+5. In your new copy, add your title and other information in _config.yaml.
+6. If you're working locally, you could use Jupyter Notebook locally to open the Jupyter Book contents and create and modify files. You can also run Jupyter Book commands to test changes before committing them to your branch. If you're not working locally, you may be able to use [Meteor](https://shower.meteor.zone/) to test (we haven't tried this, though).
+7. When you have finished a series of changes, merge your working branch into your main branch and push changes to your fork in GitHub.
+8. When you're ready to get your changes added upstream, initiate a pull request in accordance with Operate First's current process.
+
+Here are some resources if you are new to either Jupyter Notebook or Jupyter Book:
+* [Getting Started with Jupyter Notebook](https://docs.jupyter.org/en/latest/start/index.html)
+* [Jupyter Book Tutorial](https://jupyterbook.org/en/stable/start/your-first-book.html)
 
 <hr/>
 

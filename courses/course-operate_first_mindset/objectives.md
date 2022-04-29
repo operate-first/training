@@ -2,8 +2,11 @@
 
 On completing this training, you should be able to...
 
-- Describe the Operate First methodology and the motivation behind it.
-- Define the community vision
-- Explain the three basic terms
-- List the use cases
-- Identify how to get support for operate first
+- Describe the Operate First concept, rationale, and vision.
+- Identify the Operate First project tenets community goals.
+- Define Open Infrastructure Labs.
+- Describe how the OCX and MOC initiatives are operating first.
+- Find, use, and get support for Operate First community resources.
+
+<br/>
+<br/>

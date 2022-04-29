@@ -1,19 +1,21 @@
 <!-- #region -->
-# Operate First cloud environment
+# Operate First Cloud
 
+An **Operate First Cloud** is an instantiation of a production cloud environment where projects can bring their software to practice Operate First.
 
-- An Operate First cloud environment is as open as possible—an environment where anonymous visitors can read as much as possible and signup for accessing the environment is as easy as for any other modern service.  Of course all within legal boundaries. 
+**This cloud environment is:**
 
+- Tied specifically to the Operate First project and community.
+- As open as possible, mimicking the setup of open source code repositories.
 
-- The setup should mimic the setup of open source code repositories.
- 
- 
-- Since most clouds, like university or company-run services, have stricter legal requirements, it’s necessary to disconnect the Operate First Cloud from those environments to prevent leakage of data. 
+**Location:** The cloud environment spans multiple data centers and multiple geographies. In other words, it's a decentralized setup without hard dependencies on certain data-center requirements.
 
+**User access:** Anonymous visitors can read as much as possible and sign up to access the environment. They can then use the cloud environment as easy as any other modern cloud service (all within legal boundaries, of course).
 
+**Data security:** This cloud is disconnected from commerical or university clouds to protect data that's under stricter legal and security requirements.
 
-- The environment is operated by a community with a best-effort support SLA. Similar to the best-effort support that community projects provide.
+**Support:** The environment is operated by a community with a best-effort support SLA, similar to support in open source software communities.
 
+<br/>
 
-- The cloud environment spans multiple data centers and multiple geographies, i.e. it’s a decentralized setup without hard dependencies on certain data-center requirements.
 <!-- #endregion -->

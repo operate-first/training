@@ -1,19 +1,21 @@
-# What are some use cases? 
+# More examples of operating first
 
-The concept goes beyond software, with many different places and ways the Operate First concept helps beyond just improving the code:
+The Operate First concept is doing more than just improving operations in application sofware. Read this list of other projects and project types that are benefiting from operating first:
 
-- **Upstream and Downstream** - e.g. Kubevirt and CNV
-- **Platforms** - e.g. OpenShift or OpenStack
-- **Features of those platforms** - e.g. Istio or KubeVirt
-- **Supporting services** - e.g. ArgoCD for workloads
-- **Cloud-native projects** - e.g. Kubeflow or OpenDataHub
-- **Workloads** - e.g. community hosted websites
-- **Incubating community projects** - e.g. SigStore or IBM Mesh-4-Data
-- **Living Reference Architectures** - e.g. MANUela edge demo
-- **Software as a Services** - e.g. RedHat Insights or Managed Kafka
-- **Configuration data** - e.g. deployment manifests
-- **SRE content** - e.g. SLI/SLOs, Dashboards, scripts, and tools
-- **Automation** - e.g. Bots, Pipeline definitions
-- **Operational data sets** - e.g. Logs, Metrics, Incidents
-- **Architectural Decision Records** - Documents describing a thought process
-- **Community Building** - enabling contribution and growing talent
+- **Upstream and downstream** - Kubevirt, CNV
+- **Platforms** - OpenShift, OpenStack
+- **Features of those platforms** - Istio, KubeVirt
+- **Supporting services** - ArgoCD, workloads
+- **Cloud-native projects** - Kubeflow, OpenDataHub
+- **Workloads** - community-hosted websites
+- **Incubating community projects** - SigStore, IBM Mesh-4-Data
+- **Living reference architectures** - MANUela edge demo
+- **Software as a Service (SaaS)** - RedHat Insights, Managed Kafka
+- **Configuration data** - deployment manifests
+- **SRE content** - SLI/SLOs, dashboards, scripts, and tools
+- **Automation** - bots, pipeline definitions
+- **Operational data sets** - logs, metrics, incidents
+- **Architectural decision records** - documents describing a thought process
+- **Community building** - enabling contribution and growing talent
+
+<br/>

@@ -4,15 +4,18 @@
 format: jb-book
 root: intro
 chapters:
-    - file: objectives
     - file: freesoftware
     - file: fourfreedoms
-    - file: closedsource
-    - file: opensourcesoftware
-    - file: misconceptions
+    - file: open_source_closed_source
     - file: values
-    - file: opensourcecommunity
-    - file: develmodel
+    - file: open_source_community
+    - file: misconceptions
+      sections:
+      - file: misconceptions-1
+      - file: misconceptions-2
+      - file: misconceptions-3
+      - file: misconceptions-4
+    - file: project_community_development
     - file: redhatdevelmodel
     - file: linuxandopensource
     - file: streams

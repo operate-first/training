@@ -1,27 +1,22 @@
 <!-- #region -->
-# Values of open source
+# Open source values
 
+The open source software movement is driven by these values:
 
-There are lots of reasons why people choose open source over proprietary software, but the most common ones are:
+**Peer review:** An active community of developers can contribute ideas that can improve the software over time and, potentially, faster than in small, closed development teams.
 
+**Transparency:** Users can check and track the kinds of changes are happening without having to rely on vendor promises.
 
-- **Peer review:** Because the source code is freely accessible and the open source community is very active, open source code is actively checked and improved upon by peer programmers. Think of it as living code, rather than code that is closed and becomes stagnant.
+**Reliability:** Open standards and peer review ensure that open source code is tested appropriately and often, and multiple authors can check and ensure quality.
 
+**Flexibility:** Users aren't locked into using the code in any one specific way. They can use it to address problems that are unique to them, and they can work with the community to develop and peer review new solutions.
 
-- **Transparency:** Need to know exactly what kinds of data are moving where, or what kinds of changes have happened in the code? Open source allows you to check and track that for yourself, without having to rely on vendor promises.
+**Lower cost:** Open source licenses allow the core code itself to be free, and those distributing custom solutions based on that code can charge based on other factors (e.g. planning and deployment services, support, hosting, etc.).
 
+**No vendor lock-in:** Users can take that source code anywhere and use it for anything at any time, and they can integrate it with solutions from any vendor they choose.
 
-- **Reliability:** Proprietary code relies on the single author or company controlling that code to keep it updated, patched, and working. Open source code outlives its original authors because it is constantly updated through active open source communities. Open standards and peer review ensure that open source code is tested appropriately and often.
+**Open collaboration:** Open source communities provide help, resources, and perspectives that reach one interest group or one company.
 
+<br/>
 
-- **Flexibility:** Because of its emphasis on modification, you can use open source code to address problems that are unique to your business or community. You aren’t locked in to using the code in any one specific way, and you can rely on community help and peer review when you implement new solutions.
-
-
-- **Lower cost:** With open source the code itself is free—what you pay for when you use a company like Red Hat is support, security hardening, and help managing interoperability.
-
-
-- **No vendor lock-in:** Freedom for the user means that you can take your open source code anywhere, and use it for anything, at anytime.
-
-
-- **Open collaboration:** The existence of active open source communities means that you can find help, resources, and perspectives that reach beyond one interest group or one company.
 <!-- #endregion -->

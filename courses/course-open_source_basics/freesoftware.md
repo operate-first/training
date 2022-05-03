@@ -1,7 +1,16 @@
-# What is free software?
+# What is "free software"?
 
-- “Free software” means software that respects users' freedom and community. 
-- Roughly, it means that the users have the freedom to run, copy, distribute, study, change and improve the software. - Thus, “free software” is a matter of liberty, not price. 
-- To understand the concept, you should think of “free” as in “free speech,” not as in “free beer.” 
-- We sometimes call it “libre software,” borrowing the French or Spanish word for “free” as in freedom.
-- When users don't control the program, we call it a “nonfree” or “proprietary” program.
+In open source, we use the term **free software** to mean:
+
+* Software that respects users' freedom and community.
+* Users have the freedom to run, copy, distribute, study, change, and improve the software.
+
+In short: ***Free software is a matter of liberty, not price.***
+
+These are some related terms you might hear:
+
+**libre software** - A synonym of free software, borrowing the French or Spanish word for "free."
+
+**nonfree** or **proprietary** - The opposite of "free software," meaning software in which the users don't have any control or direct input.
+
+<br/>

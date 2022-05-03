@@ -4,7 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: objectives
 - file: op1st_concept
 - file: op1st_rationale
 - file: op1st_vision

@@ -1,17 +1,23 @@
 <!-- #region -->
 # The four essential freedoms
 
+A computer program is considered *free software* when users have these four essential freedoms:
 
-- A program is free software if the program's users have the four essential freedoms: 
-    - The freedom to run the program as you wish, for any purpose (freedom 0).
-    - The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
-    - The freedom to redistribute copies so you can help others (freedom 2).
-    - The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+**Freedom 0:** The freedom to run the program as you wish, for any purpose.
 
+**Freedom 1:** The freedom to study how the program works, and change it so it does your computing as you wish. (Requires access to the source code.)
 
-- The reason they are numbered 0, 1, 2 and 3 is historical. 
-- Around 1990 there were three freedoms, numbered 1, 2 and 3. 
-- It was then realized that the freedom to run the program needed to be mentioned explicitly. 
-- It was clearly more basic than the other three, so it properly should precede them. 
-- Rather than renumber the others, it was made freedom 0.
+**Freedom 2:** The freedom to redistribute copies so you can help others.
+
+**Freedom 3:** The freedom to distribute copies of your modified versions to others, giving whole community a chance to benefit from your changes. (Requires access to the source code.)
+
+Some history:
+
+* Around 1990, there were only three freedoms (1, 2, and 3).
+* Freedom 0 was added later:
+  * Open source advocates realized a need to mention running the program freely for any purpose.
+  * This seemed more basic than the other freedoms, so it was added before them as "freedom 0."
+
+<br/>
+
 <!-- #endregion -->

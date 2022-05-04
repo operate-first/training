@@ -1,0 +1,6 @@
+Template course for the Operate First training space
+
+This directory makes up a Jupyter Book that has a standardized structure for
+all courses to be created and maintained for Operate First (operate-first.org).
+
+Copy this directory as needed when you start developing a new course.

@@ -1,5 +1,5 @@
 <!-- #region -->
-# What is an open source community?
+# Open source communities
 
 An **open source commnunity** is a group of users and developers who work together voluntarily to develop, test, or modify open source software.
 

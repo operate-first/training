@@ -1,5 +1,5 @@
 <!-- #region -->
-# Open source project and community development
+# How open source projects and communities develop
 
 Read through this walkthrough of how an open source project goes from an idea to fully realized open source community.
 

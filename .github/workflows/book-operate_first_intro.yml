@@ -1,10 +1,10 @@
-name: Operate First Mindset
+name: Introduction to Operate First
 
 # Only run this when the master branch changes
 on:
   push:
     paths:
-      - 'courses/course-operate_first_mindset/**'
+      - 'courses/course-operate_first_intro/**'
     branches:
       - 'master'
   workflow_dispatch:
@@ -27,17 +27,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r courses/course-operate_first_mindset/requirements.txt
+          pip install -r courses/course-operate_first_intro/requirements.txt
 
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build courses/course-operate_first_mindset/
+          jupyter-book build courses/course-operate_first_intro/
 
       # Push the book's HTML to github-pages
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: courses/course-operate_first_mindset/_build/html
-          destination_dir: operate_first_mindset/
+          publish_dir: courses/course-operate_first_intro/_build/html
+          destination_dir: operate_first_intro/

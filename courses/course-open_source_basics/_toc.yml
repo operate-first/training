@@ -4,5 +4,22 @@
 format: jb-book
 root: intro
 chapters:
-- file: page-template-notebook
-
+    - file: page-free_software
+    - file: page-four_freedoms
+    - file: page-open_source_closed_source
+    - file: page-open_source_licenses
+    - file: page-values
+    - file: page-open_source_community
+    - file: project_community_development
+    - file: page-misconceptions
+      sections:
+      - file: page-misconceptions-1
+      - file: page-misconceptions-2
+      - file: page-misconceptions-3
+      - file: page-misconceptions-4
+    - file: page-upstream_first
+    - file: page-linux_open_source
+    - file: page-red_hat_open_model
+    - file: page-more_about_red_hat
+    - file: page-open_goes_beyond_software
+    - file: page-knowledge_check

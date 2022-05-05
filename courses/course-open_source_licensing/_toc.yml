@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: objectives
+- file: disclaimer
+- file: what_is_license
+- file: software_license
+- file: copyright_patent_trademark
+- file: origin_opensource_license
+- file: what_is_distribution
+- file: first_opensource_license
+- file: reviewprocess
+- file: opensource_definition
+- file: publicdomain
+- file: three_basic_licenses
+- file: permissive_copyleft
+- file: contributor_license_agreement
+- file: creativecommons
+- file: choosing_right_license

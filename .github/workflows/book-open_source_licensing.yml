@@ -1,0 +1,43 @@
+name: Open Source Licensing
+
+# Only run this when the master branch changes
+on:
+  push:
+    paths:
+      - 'courses/course-open_source_licensing/**'
+    branches:
+      - 'master'
+  workflow_dispatch:
+
+# This job installs dependencies, build the book, and pushes it to `gh-pages`
+jobs:
+  deploy-book:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy_environment
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v2
+
+      # Install dependencies
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Install dependencies
+        run: |
+          pip install -r courses/course-open_source_licensing/requirements.txt
+
+      # Build the book
+      - name: Build the book
+        run: |
+          jupyter-book build courses/course-open_source_licensing/
+
+      # Push the book's HTML to github-pages
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: courses/course-open_source_licensing/_build/html
+          destination_dir: open_source_licensing/

@@ -59,26 +59,58 @@ These are the key directories and files to pay attention to when contributing to
 
 If you aren't yet a member of the Operate First community in GitHub, [start here](https://github.com/operate-first/common/blob/main/docs/add_gh_member_and_access.md#become-a-github-member).
 
-Members can then fork and contribute changes to the repository:
+Members can then create forks and use the pull request (PR) system to contribute changes to the repository. The sections that follow cover what to do.
+
+### Create and check out your fork
+
 1. Fork the training repository in GitHub: **[operate-first/training|https://github.com/operate-first/training]**
 2. In your fork, create a working branch other than main.
 3. If you want to work locally on your system, clone your fork and check out your working branch.
-4. If you're creating a new training module:
-  * Copy the *template-course* directory to create a new directory under *courses
-  * following the same directory naming convention as other courses (*course-title_of_course*).
-  * In your new copy, add your title and other information in _config.yaml.
-5. If you're working locally, you have these options:
-  * Use your preferred code editor to create and edit markdown files (e.g. Atom).
-  * Use Jupyter Notebook locally to open the Jupyter Book contents and create and modify files (especially if you want to create Jupyter Notebook files).
-  * Run Jupyter Book commands to test changes before committing them to your branch.
-6. When you have finished a series of changes, merge your working branch into your main branch and push changes to your fork in GitHub.
-7. When you're ready to get your changes added upstream:
-  * If you have any new courses to publish, copy one of the existing YAML files under .github/workflows/ and modify it appropriately.
-  * Add the appropriate link to courses/index.md, which is the source of the landing page for training.
-  * Initiate a pull request in accordance with Operate First's current process.
+
+### Set up a new course (new courses only)
+
+If you're creating a new training course:
+
+1. Copy the *template-course* directory to create a new directory under *courses* following the same directory naming convention as other courses (*course-title_of_course*).
+2. In your new copy, add your title and other information in _config.yaml.
+
+### Develop training locally
+
+If you're working locally, you can use various tools to develop your code (markdown, Jupyter Book, etc.) and to preview your Jupyter Book. Here are some options:
+
+* Use your preferred code editor to create and edit markdown files (e.g. Atom).
+
+* Use Jupyter Notebook locally to open the Jupyter Book contents and create and modify files (especially if you want to create Jupyter Notebook files).
+
+* Run Jupyter Book commands to test changes before committing them to your branch.
+
+See the [Resources](#Resources) section if you're new to either Jupyter Book or Jupyter Notebook.
+
+### Apply the usual coding best practices
+
+Apply GitHub and developer best practices while developing training. For example, commit early and often, and push changes to your fork at a regular cadance (e.g. daily) to mitigate losing your changes.
+
+### Prepare to publish a new course (new courses only)
+
+If you're created a new training course *and* you're ready to publish it to Operate First, make these final changes in your branch before merging to main and opening your PR:
+
+1. Make a copy of one of the existing YAML files under .github/workflows/ and modify it appropriately there in that same directory. Follow a similar pattern to other courses, such as dropping the "course-" prefix on the directory name when publishing.
+2. (FIXME... this part of the process is not yet complete) Edit *courses/index.md* to add a link to the URI where your training is being published.
+
+### Open a pull request
+
+Initiate a pull request in accordance with Operate First's current process. If you are part of the approvers, you will be able to approve the PR upstream and merge changes.
+
+### Run the GitHub workflows corresponding to your changes
+
+After your PR is approved and the changes are merged, open the "Actions" tab in the operate-first/training space in GitHub ([here's the direct link](https://github.com/operate-first/training/actions)), and use that UI to run the workflows listed there.
+
+## Resources
 
 Here are some resources if you are new to either Jupyter Notebook or Jupyter Book:
+
 * [Getting Started with Jupyter Notebook](https://docs.jupyter.org/en/latest/start/index.html)
+
 * [Jupyter Book Tutorial](https://jupyterbook.org/en/stable/start/your-first-book.html)
 
 <hr/>

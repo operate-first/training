@@ -31,14 +31,14 @@ Each course:
 * Is developed as a single book in Jupyter Book
 * Covers 1-2 learning objectives
 
-The course has associated GitHub workflow that builds the book and publishes the HTML to a directory under ``operate-first.cloud/training/``. We can run those workflows from GitHub after accepting a PR into the *operate-frst/training* repository.
+The course has associated GitHub workflow that builds the book and publishes the HTML to a directory under ``operate-first.cloud/docs-training``. We can run those workflows from GitHub after accepting a PR into the *operate-frst/training* repository.
 
 ## Where people can find and consume the training content
 
 FIXME... this landing page setup is in progress as of 9 May 2022...
 
 You have two options to access training content after it's been published:
-* Directly open https://operate-first.cloud/training
+* Directly open [https://www.operate-first.cloud/docs-training](https://www.operate-first.cloud/docs-training)
 * Go to the Operate First home page (operate-first.cloud) and select "Docs and training"
 
 *Learners (end users) should not need to access this repository directly unless they choose to contribute back to the training content.*

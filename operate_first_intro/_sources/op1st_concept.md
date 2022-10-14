@@ -1,4 +1,5 @@
 <!-- #region -->
+
 # Operate First concept
 
 **[Operate First](https://www.operate-first.cloud/)** is concept to incorporate operational experience into software projects.
@@ -11,7 +12,7 @@
 
 <br/>
 
-- Apply a methodology that's similar to [open source](https://www.operate-first.cloud/training/course-open_source_basics), but without functioning as code, a license, hardware, or a cloud.
+- Apply a methodology that's similar to [open source](https://www.operate-first.cloud/training/open_source_basics), but without functioning as code, a license, hardware, or a cloud.
 
 <br/>
 

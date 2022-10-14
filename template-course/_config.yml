@@ -30,6 +30,6 @@ repository:
 
 # Settings in the rendered HTML
 html:
-  favicon: "favicon-32x32.png"
+  favicon: "favicon-144x144.png"
   use_issues_button: true
   use_repository_button: true

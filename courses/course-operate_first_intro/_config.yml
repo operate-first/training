@@ -26,10 +26,10 @@ bibtex_bibfiles:
 repository:
   url: https://github.com/operate-first/training
   path_to_book: courses/course-operate_first_mindset
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: master # Which branch of the repository should be used when creating links (optional)
 
 # Settings in the rendered HTML
 html:
-  favicon: "favicon-32x32.png"
+  favicon: "favicon-144x144.png"
   use_issues_button: true
   use_repository_button: true
